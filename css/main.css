@@ -558,9 +558,174 @@ header .spot li:last-child a{
     top: 0;
 }
 
+.banner{
+    background: url(../image/bg_main_business.jpg) no-repeat center top;
+    padding: 55px 0;
+}
 
+.banner ul{
+    display: flex;
+    width: 1180px;
+    margin: 0 auto;
+}
 
+.banner ul li{
+    flex: 1;
+    padding: 0 0 0 20px;
+}
 
+.banner ul li:first-child{
+    padding: 0;
+}
+
+.banner ul li a{
+    display: block;
+    padding: 303px 0 0;
+    height: 390px;
+    font-size: 14px;
+    color: #3e413d;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner ul li a strong{
+    display: block;
+    font-size: 23px;
+    color: #000;
+}
+
+.banner ul li:nth-child(1) a{
+    background: url("../image/bg_business.jpg") no-repeat;
+}
+.banner ul li:nth-child(2) a{
+    background: url("../image/bg_business.jpg") no-repeat;
+}
+
+.banner ul li:nth-child(3) a{
+    background: url("../image/bg_business.jpg") no-repeat;
+}
+
+.banner ul li:nth-child(4) a{
+    background: url("../image/bg_business.jpg") no-repeat;
+}
+
+footer .top{
+    background: #383f43;
+}
+
+footer .top > div{
+    width: 1180px;
+    margin: 0 auto;
+    padding: 13px 0;
+}
+
+footer .top > ul{
+    float: left;
+}
+
+footer .top > div ul li{
+    float: left;
+    position: relative;
+    padding: 0 19px 0 0;
+}
+
+footer .top > div ul li:after{
+    content: "";
+    position: absolute;
+    right: 9px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 8px;
+    background: #70767a;
+}
+
+footer .top > div ul li:last-child:after{
+    display: none;
+}
+
+footer .top > div ul li a{
+    font-size: 13px;
+    color: #fff;
+    line-height: 45px;
+}
+
+footer .top > div div{
+    float: right;
+}
+
+footer .top > div div p{
+    display: inline-block;
+    background: #2a3033;
+    width: 242px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 13px;
+    color: #fff;
+}
+
+footer .top > div div p strong{
+    padding: 0 0 0 15px;
+    font-size: 20px;
+}
+
+footer .top > div div select{
+    padding: 0 0 0 21px;
+    color: #191919;
+    font-size: 12px;
+    width: 200px;
+    height: 44px;
+    box-sizing: border-box;
+    border: none;
+    vertical-align: 3px;
+}
+
+footer .btm{
+    background: #4c5459;
+    padding: 40px 0 44px;
+    text-align: center;
+}
+
+footer .btm p {
+    display: inline-block;
+    width: 131px;
+    height: 51px;
+    background: url(../image/sp_com.png) no-repeat -150px 0;
+    color: transparent;
+}
+
+footer .btm ul{
+    padding: 32px 0 14px;
+}
+
+footer .btm li{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+footer .btm li:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 8px;
+    background: #70767a;
+}
+
+footer .btm li:last-child:after{
+    display: none;
+}
+
+footer .btm address{
+    font-size: 14px;
+    color: #fff;
+}
 
 
 /* slide */
