@@ -368,13 +368,28 @@ header .spot li:last-child a{
     font-size: 17px;
     color: #fff;
     font-weight: bold;
+    transition: all 0.5s;
 }
 
 .notice > div .top > ul a span{
     display: block;
+    position: relative;
     font-weight: normal;
     font-size: 14px;
     padding: 20px 0 0;
+    top: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.notice > div .top > ul a:hover{
+    background: rgba(45,91,121,0.5);
+}
+
+.notice > div .top > ul a:hover span{
+    top: 0;
+    opacity: 1;
+    
 }
 
 .notice > div .top > ul{
@@ -386,15 +401,15 @@ header .spot li:last-child a{
     padding: 0 20px 0 0;
 }
 
-.notice > div .top > ul li:nth-child(1) a{
+.notice > div .top > ul li:nth-child(1){
     background: url(../image/product01.jpg) no-repeat;
 }
 
-.notice > div .top > ul li:nth-child(2) a{
+.notice > div .top > ul li:nth-child(2){
     background: url(../image/product04.jpg) no-repeat;
 }
 
-.notice > div .top > ul li:nth-child(3) a{
+.notice > div .top > ul li:nth-child(3){
     background: url(../image/product03.jpg) no-repeat;
 }
 
