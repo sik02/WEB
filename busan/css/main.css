@@ -1,0 +1,12 @@
+#banner{ height: 160px; background: #0e3c84; }
+#banner > div{ position: relative; width: 1200px; margin: 0 auto; text-align: center; }
+#banner .prev,
+#banner .next,
+#banner .control,
+#banner .close{ position: absolute; }
+#banner .prev{ left: 0; top: 42px; }
+#banner .next{ right: 0; top: 42px; }
+#banner .control{ left: 0; bottom: 11px; font-size: 0;}
+#banner .control a{ padding: 0 15px 0 0;}
+#banner .close{ right: 0; bottom: 4px; }
+#banner .close label{ padding: 0 22px 0; font-size: 11px; color: #fff;}
