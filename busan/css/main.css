@@ -1,12 +1,117 @@
-#banner{ height: 160px; background: #0e3c84; }
-#banner > div{ position: relative; width: 1200px; margin: 0 auto; text-align: center; }
+#banner{ 
+    height: 160px; 
+    background: #0e3c84; 
+}
+#banner > div{ 
+    position: relative; 
+    width: 1200px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
 #banner .prev,
 #banner .next,
 #banner .control,
-#banner .close{ position: absolute; }
-#banner .prev{ left: 0; top: 42px; }
-#banner .next{ right: 0; top: 42px; }
-#banner .control{ left: 0; bottom: 11px; font-size: 0;}
-#banner .control a{ padding: 0 15px 0 0;}
-#banner .close{ right: 0; bottom: 4px; }
-#banner .close label{ padding: 0 22px 0; font-size: 11px; color: #fff;}
+#banner .close{ 
+    position: absolute; 
+}
+#banner .prev{ 
+    left: 0; 
+    top: 42px; 
+}
+#banner .next{ 
+    right: 0; 
+    top: 42px; 
+}
+#banner .control{ 
+    left: 0; 
+    bottom: 11px; 
+    font-size: 0;
+}
+#banner .control a{ 
+    padding: 0 15px 0 0;
+}
+#banner .close{ 
+    right: 0; 
+    bottom: 4px; 
+}
+#banner .close label{ 
+    padding: 0 22px 0; 
+    font-size: 11px; 
+    color: #fff;
+}
+
+#header { 
+    height: 99px; 
+    border-bottom: 1px solid #c5c5c5; 
+}
+#header > div { 
+    width: 1200px; 
+    margin: 0 auto; 
+}
+#header > div > *{ 
+    float: left; 
+}
+
+#header h1{ 
+    padding: 0 20px 0 0; 
+}
+#header #lnb li{ 
+    float: left; 
+    padding: 0 16px; 
+}
+#header #lnb li a{ 
+    display: block; 
+    height: 99px; 
+    line-height: 99px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #333; 
+}
+#header #lnb li a:hover{ 
+    height: 95px;
+    background: url('../image/bg_lnb.gif') no-repeat center 87px;
+    border-bottom: 4px solid #1764dc; 
+    color: #3c91f3; 
+}
+
+#header p{
+    float: left;
+    height: 99px;
+    line-height: 99px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0e3c84;
+}
+
+#header p span{
+    color: #1764dc;
+}
+
+#header > div > div{
+    float: right;
+}
+
+#header > div > div > div{
+    float: left;
+    padding: 30px 0 0 11px;
+    font-size: 0;
+}
+
+#header > div > div > div img{
+    position: relative;
+    top: -5px;
+}
+
+#header .btn_pop{
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    background: url(../image/bu_arrow_down.gif) no-repeat 55px center #2cc06b;
+    font-size: 13px;
+    color: #fff;
+    line-height: 40px;
+    text-indent: 9px;
+}
+
+
+
