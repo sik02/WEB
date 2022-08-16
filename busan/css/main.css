@@ -114,4 +114,206 @@
 }
 
 
+#visual{
+    background: url(../image/bg_visual.jpg) no-repeat center top;
+}
+
+#visual > div{
+    width: 1200px; margin: 0 auto;
+}
+
+#visual .copy{
+    padding: 71px 0 0 0;
+}
+
+#visual .copy > div{
+    float: left;
+    width: 33.3%;
+}
+
+#visual .copy .txt1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 12px;
+    padding: 127px 0 0 0;
+}
+
+#visual .copy .txt1 div{
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0;
+}
+
+#visual .copy .txt1 img{
+    margin: 0 22px 0 8px;
+}
+
+#visual .copy .txt2{
+    background: url(../image/bg_circle.png) no-repeat center;
+    width: 394px;
+    height: 264px;
+    font-family: 'russell_squareregular';
+    font-size: 20px;
+    padding: 80px 0 0 0;
+    color: #fff;
+    text-align: center;
+}
+
+#visual .copy .txt2 div{
+    font-family: 'russell_squareregular';
+    font-size: 135px;
+    color: #fff;
+}
+
+#visual .copy .txt3{
+    float: right;
+    width: 340px;
+    color: #fff;
+    font-family: 'russell_squareregular';
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 15px;
+    padding: 109px 37px 0 0;
+}
+
+#visual .copy .txt3 div{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+#visual .paging{
+    text-align: center;
+    font-size: 0;
+    padding: 27px 0 17px;
+}
+
+#visual .paging ul{
+    display: inline-block;
+    font-size: 0;
+}
+
+#visual .paging p{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+#visual .paging li{
+    margin: 0 7px;
+    display: inline-block;
+}
+
+#visual .paging div{
+    padding: 17px 0 0 0;
+}
+
+#visual .bottom h2{
+    float: left;
+    padding: 22px 0 0 0;
+    width: 100px;
+    height: 74px;
+    background: #f13009;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+#visual .bottom .event{
+    float: left;
+    position: relative;
+    padding: 0 80px;
+    width: 730px;
+    height: 96px;
+    background: rgba(0,0,0,0.3);
+}
+
+#visual .bottom .event div{
+    position: absolute;
+    left: 38px;
+    top: 15px;
+    background: url(../image/bg_line.gif) no-repeat center 35px;
+}
+
+#visual .bottom .event div a{
+    display: block;
+    margin: 0 0 32px;
+}
+
+#visual .bottom .event ul{
+    padding: 26px 0 0 0;
+}
+
+
+#visual .bottom .event li{
+    float: left;
+    width: 50%;
+    
+}
+
+#visual .bottom .event li a{
+    display: block;
+    padding: 0 0 0 18px;
+    font-size: 14px;
+    color: #fff;
+    background: url(../image/bu_circle.png) no-repeat left;
+    line-height: 22px;
+}
+
+#visual .bottom .weather{
+    float: right;
+    position: relative;
+    padding: 0 43px;
+    width: 124px;
+    height: 96px;
+    background: #23b923;
+}
+
+#visual .bottom .weather h3{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 12px 0 9px;
+}
+
+#visual .bottom .weather > a{
+    position: absolute;
+    top: 50%;
+    margin-top: -6.5px;
+}
+
+#visual .bottom .weather > a.left{
+    left: 19px;
+}
+
+#visual .bottom .weather > a.right{
+    right: 19px;
+}
+
+#visual .bottom .weather > div{
+    position: relative;
+    padding: 0 0 0 65px;
+    font-size: 12px;
+    color: #fff;
+}
+
+#visual .bottom .weather > div img{
+    position: absolute;
+    left: 9px;
+    top: 0;
+}
+
+#visual .bottom .weather > div div{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;;
+}
+
+
+
+
+
+
 
