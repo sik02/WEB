@@ -119,7 +119,8 @@
 }
 
 #visual > div{
-    width: 1200px; margin: 0 auto;
+    width: 1200px; 
+    margin: 0 auto;
 }
 
 #visual .copy{
@@ -312,8 +313,154 @@
 }
 
 
+#traffic_box{
+    background: url(../image/bg_traffic.jpg) no-repeat center top;
+}
 
+#traffic_box > div{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
 
+#traffic_box > div h2{
+    font-size: 38px;
+    padding: 70px 0 0 0;
+    color: #fefefe;
+    text-align: center;
+}
 
+#traffic_box > div .speed{
+    width: 250px;
+    height: 230px;
+    margin: 35px auto 145px;
+    background: url(../image/bg_circle2.png) no-repeat center top;
+    text-align: center;
+    color: #fff;
+}
 
+#traffic_box > div .speed div{
+    color: #fff;
+}
 
+#traffic_box > div .speed div.t1{
+    padding: 72px 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 6px;
+    letter-spacing: 10px;
+}
+
+#traffic_box > div .speed div.t2{
+    font-size: 60px;
+    font-family: 'russell_squareregular';
+    line-height: 73%;
+}
+
+#traffic_box > div .speed div.t3{
+    padding: 17px 0 0;
+    font-size: 11px;
+}
+
+#traffic_box > div .left{
+    position: absolute;
+    left: 50px;
+    top: 246px;
+}
+
+#traffic_box > div .right{
+    position: absolute;
+    right: 60px;
+    top: 270px;
+}
+
+#traffic_box > div .left li{
+    float: left;
+    padding: 0 3px 0 0;
+}
+
+#traffic_box > div .left a{
+    display: block;
+    background: url(../image/bg_btn_tab.png) no-repeat left top;
+    width: 105px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #fff;
+}
+
+#traffic_box > div .left a:hover,
+#traffic_box > div .left li.on a{
+    background-position: right top;
+}
+
+#traffic_box > div .graph{
+    margin: 0 auto;
+    width: 1052px;
+}
+
+#traffic_box > div .graph ul{
+    padding: 98px 0 0 0;
+}
+
+#traffic_box > div .graph li{
+    float: left;
+    position: relative;
+    width: 45px;
+    padding: 0 0 0 80px;
+    background: url(../image/bg_arrow.png) no-repeat 23px center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+#traffic_box > div .graph li:first-child{
+    background: none;
+    padding-left: 0;
+}
+
+#traffic_box > div .graph li:first-child div{
+    right: -33px;
+}
+
+#traffic_box > div .graph li > div{
+    position: absolute;
+    right: -63px;
+    top: -197px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+#traffic_box > div .graph li > div strong{
+    display: block;
+    position: relative;
+    font-size: 25px;
+}
+
+#traffic_box > div .graph li > div strong img{
+    display: block;
+    margin: 0 auto;
+}
+
+#traffic_box > div .graph li > div strong img + span{
+    display: none;
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    width: 215px;
+    left: 29px;
+    top: -22px; 
+    padding: 8px;
+    background: #023c84;
+}
+
+#traffic_box > div .graph li > div strong img:hover + span{
+    display: block;
+}
+
+#traffic_box > div .next{
+    text-align: center;
+    padding: 37px 0 28px;
+}

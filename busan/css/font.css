@@ -1,7 +1,7 @@
 @font-face{
     font-family: 'russell_squareregular';
-    src: url('ufonts.com_russell-square-regular.woff2') format('woff2'),
-         url('ufonts.com_russell-square-regular.woff') format('woff');
+    src: url(ufonts.com_russell-square-regular.woff2) format(woff2),
+         url(ufonts.com_russell-square-regular.woff) format(woff);
     font-weight: normal;
     font-style: normal;
 }
