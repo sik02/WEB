@@ -1,0 +1,52 @@
+#visual{
+    position: relative;
+    height: 340px;
+    background: url(../image/common/bg_visual1.png) no-repeat center top;
+}
+
+#visual:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 59px;
+    border-top: 1px solid #070f08;
+    background: rgba(0,0,0,0.3);
+}
+
+#visual > div{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#visual > div > p{
+    padding: 112px;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+
+#visual > div > p span{
+    display: block;
+    font-family: 'russell_squareregular';
+    font-size: 18px;
+}
+
+#visual > div > p em{
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    font-family: 'russell_squareregular';
+}
+
+#visual > div > p ins{
+    display: inline-block;
+    width: 37px;
+    height: 11px;
+    background: url(../image/common/ico_arrow.png) no-repeat center;
+    font-size: 0px;
+    color: transparent;
+    vertical-align: middle;
+}
