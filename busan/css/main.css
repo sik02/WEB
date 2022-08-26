@@ -618,7 +618,120 @@
     font-size: 21px;
     color: #1e62cc;
 }
+
 #safe .next{
     padding: 35px 0 20px;
+    text-align: center;
+}
+
+#trip{
+    background: url(../image/bg_visual2.jpg) no-repeat center top;
+}
+
+#trip > div{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#trip > div h2{
+    padding: 72px 0 37px;
+    font-size: 38px;
+    color: #ab2246;
+    text-align: center;
+}
+
+#trip > div > a{
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+#trip .white_box{
+    padding: 5px 60px 30px;
+    background: rgba(255,255,255,0.9);
+}
+
+#trip .white_box > div{
+    float: left;
+}
+
+#trip .white_box > div h3{
+    padding: 25px 0 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+#trip .white_box > div > a{
+    display: block;
+    position: relative;
+}
+
+#trip .white_box > div > a em,
+#trip .white_box > div > a span{
+    position: absolute;
+}
+
+#trip .white_box > div > a span{
+    display: none;
+    left: 50%;
+    top: 50%;
+    margin: -39px 0 0 -85px;
+    padding: 21px 0 0 0;
+    width: 170px;
+    height: 57px;
+    background: url(../image/bg_over.png) no-repeat;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+
+#trip .white_box > div > a:hover span{
+    display: block;
+}
+
+#trip .white_box > div > a em{
+    left: 20px;
+    bottom: 18px;
+    font-size: 14px;
+    color: #fff;
+}
+
+#trip .white_box > div > a:hover em{
+    display: none;
+}
+
+#trip .white_box > div.mid{
+    padding: 0 60px;
+}
+
+#trip .white_box > div.mid a span{
+    left: 249px;
+    top: 289px;
+    margin: 0;
+    padding: 0;
+    width: 91px;
+    height: 31px;
+    line-height: 31px;
+    background: url(../image/btn_more2.png);
+    text-align: left;
+    text-indent: 17px;
+}
+
+#trip .white_box > div.mid p{
+    padding: 20px 0 13px;
+    font-size: 17px;
+    color: #333;
+    font-weight: bold;
+}
+
+#trip .white_box > div.mid div{
+    font-size: 13px;
+    color: #333;
+}
+
+#trip > div > p{
+    padding: 25px 0 35px;
     text-align: center;
 }
