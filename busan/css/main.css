@@ -732,6 +732,102 @@
 }
 
 #trip > div > p{
-    padding: 25px 0 35px;
+    padding: 25px 0 0;
     text-align: center;
+}
+
+
+#sns{
+    background: url(../image/bg_visual3.jpg) no-repeat center top;
+}
+
+#sns > div{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#sns > div > h2{
+    padding: 74px 0 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 58px;
+    letter-spacing: 20px;
+    font-weight: normal;
+}
+
+#sns > div > p{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+#sns > div .sns_box{
+    padding: 47px 0 0;
+}
+
+#sns > div .sns_box > div{
+    float: left;
+    padding: 40px 50px 0;
+    width: 270px;
+    height: 460px;
+    margin-left: 45px;
+    background: #fff; 
+}
+
+#sns > div .sns_box > div:first-child{
+    margin: 0;
+}
+
+#sns > div .sns_box > div h3{
+    font-size: 21px;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+#sns > div .sns_box > div.sns1 h3{
+    color: #3658a5;
+}
+
+#sns > div .sns_box > div.sns2 h3{
+    padding: 0;
+    color: #32900b;
+}
+
+#sns > div .sns_box > div.sns2 p{
+    padding: 9px 0 19px;
+    font-size: 14px;
+    color: #828281;
+    text-align: center;
+}
+
+#sns > div .sns_box > div.sns2 img{
+    border-bottom: 1px solid #aaa;
+}
+
+#sns > div .sns_box > div.sns3 h3{
+    color: #3b9dea;
+}
+
+#sns > div .sns_box > div.sns2 h3 img{
+    border: none;
+    padding: 0 0 15px;
+}
+
+#sns > div .sns_box > div a{
+    display: block;
+    width: 270px;
+    height: 43px;
+    text-align: center;
+    color: #fff;
+    font-size: 12.5px;
+    line-height: 43px;
+    background: url(../image/bg_arrow2.png) no-repeat 236px center;
+}
+
+#sns > div .sns_box > div.sns1 a{
+    background-color: #3b56ad;
+}
+
+#sns > div .sns_box > div.sns2 a{
+    background-color: #35b22c;
 }
