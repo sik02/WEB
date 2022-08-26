@@ -831,3 +831,96 @@
 #sns > div .sns_box > div.sns2 a{
     background-color: #35b22c;
 }
+
+#footer {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer > a{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#footer > img{
+    padding: 42px 0 26px;
+}
+
+#footer .nav li{
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+}
+
+#footer .nav li:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 14px;
+    background: #b2b2b2;
+}
+
+#footer .nav li:first-child:after{
+    display: none;
+}
+
+#footer .nav li a{
+    font-size: 13.5px;
+    color: #333;
+}
+
+#footer address{
+    padding: 20px 0 38px;
+    font-size: 13.5px;
+    color: #666;
+}
+
+#footer address em{
+    display: block;
+    padding: 25px 0 0;
+    font-size: 12.5px;
+    color: #999;
+}
+
+#footer .sns li{
+    display: inline-block;
+}
+
+#footer .sns li a{
+    display: block;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    background: url(../image/ico_footer_sns.gif) no-repeat;
+    color: transparent;
+}
+
+#footer .sns li.ico1 a{
+    background-position: 0 0;
+}
+
+#footer .sns li.ico2 a{
+    background-position: -43px 0;
+}
+
+#footer .sns li.ico3 a{
+    background-position: -86px 0;
+}
+
+#footer .sns li.ico1 a:hover{
+    background-position: 0 bottom;
+}
+
+#footer .sns li.ico2 a:hover{
+    background-position: -43px bottom;
+}
+
+#footer .sns li.ico3 a:hover{
+    background-position: -86px bottom;
+}
