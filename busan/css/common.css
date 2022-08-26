@@ -1,0 +1,167 @@
+#header { 
+    height: 99px; 
+    border-bottom: 1px solid #c5c5c5; 
+}
+#header > div { 
+    width: 1200px; 
+    margin: 0 auto; 
+}
+#header > div > *{ 
+    float: left; 
+}
+
+#header h1{ 
+    padding: 0 20px 0 0; 
+}
+#header #lnb li{ 
+    float: left; 
+    padding: 0 16px; 
+}
+#header #lnb li a{ 
+    display: block; 
+    height: 99px; 
+    line-height: 99px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #333; 
+}
+#header #lnb li a:hover{ 
+    height: 95px;
+    background: url('../image/index/bg_lnb.gif') no-repeat center 87px;
+    border-bottom: 4px solid #1764dc; 
+    color: #3c91f3; 
+}
+
+#header p{
+    float: left;
+    height: 99px;
+    line-height: 99px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0e3c84;
+}
+
+#header p span{
+    color: #1764dc;
+}
+
+#header > div > div{
+    float: right;
+}
+
+#header > div > div > div{
+    float: left;
+    padding: 30px 0 0 11px;
+    font-size: 0;
+}
+
+#header > div > div > div img{
+    position: relative;
+    top: -5px;
+}
+
+#header .btn_pop{
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    background: url(../image/index/bu_arrow_down.gif) no-repeat 55px center #2cc06b;
+    font-size: 13px;
+    color: #fff;
+    line-height: 40px;
+    text-indent: 9px;
+}
+
+
+
+#footer {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer > a{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#footer > img{
+    padding: 42px 0 26px;
+}
+
+#footer .nav li{
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+}
+
+#footer .nav li:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 14px;
+    background: #b2b2b2;
+}
+
+#footer .nav li:first-child:after{
+    display: none;
+}
+
+#footer .nav li a{
+    font-size: 13.5px;
+    color: #333;
+}
+
+#footer address{
+    padding: 20px 0 38px;
+    font-size: 13.5px;
+    color: #666;
+}
+
+#footer address em{
+    display: block;
+    padding: 25px 0 0;
+    font-size: 12.5px;
+    color: #999;
+}
+
+#footer .sns li{
+    display: inline-block;
+}
+
+#footer .sns li a{
+    display: block;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    background: url(../image/index/ico_footer_sns.gif) no-repeat;
+    color: transparent;
+}
+
+#footer .sns li.ico1 a{
+    background-position: 0 0;
+}
+
+#footer .sns li.ico2 a{
+    background-position: -43px 0;
+}
+
+#footer .sns li.ico3 a{
+    background-position: -86px 0;
+}
+
+#footer .sns li.ico1 a:hover{
+    background-position: 0 bottom;
+}
+
+#footer .sns li.ico2 a:hover{
+    background-position: -43px bottom;
+}
+
+#footer .sns li.ico3 a:hover{
+    background-position: -86px bottom;
+}
