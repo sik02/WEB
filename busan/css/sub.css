@@ -17,7 +17,9 @@
 }
 
 #visual > div{
+    position: relative;
     width: 1200px;
+    height: 340px;
     margin: 0 auto;
 }
 
@@ -36,7 +38,6 @@
 
 #visual > div > p em{
     position: relative;
-    top: 4px;
     display: inline-block;
     font-family: 'russell_squareregular';
 }
@@ -49,4 +50,132 @@
     font-size: 0px;
     color: transparent;
     vertical-align: middle;
+}
+
+#visual > div .left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#visual > div .left > a{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: url(../image/common/ico_home.png) no-repeat center #dc300a;
+    font-size: 0px;
+    color: transparent;
+
+}
+
+#visual > div .left ul{
+    float: left;
+}
+
+#visual > div .left ul li{
+    float: left;
+}
+
+#visual > div .left ul li a{
+    display: block;
+    width: 171px;
+    height: 60px;
+    color: #fff;
+    border-right: 1px solid #0f1013;
+    font-size: 18px;
+    line-height: 60px;
+    text-indent: 20px;
+}
+
+#visual > div .left ul li.ico1 a{
+    background: url(../image/common/ico_bar.png) no-repeat 142px center;
+}
+
+#visual > div .left ul li.ico2 a{
+    background: url(../image/common/ico_arrow2.png) no-repeat 142px center;
+}
+
+#visual > div .right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#visual > div .right > ul{
+    border-right: 1px solid #1d1c1d;
+}
+
+#visual > div .right > ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#visual > div .right > ul > li{
+    float: left;
+}
+
+#visual > div .right > ul > li > a{
+    display: block;
+    width: 59px;
+    height: 59px;
+    border-left: 1px solid #1d1c1d;
+    color: transparent;
+}
+
+#visual > div .right > ul > li.ico1 > a{
+    background: url(../image/common/ico_fav.png) no-repeat center;
+}
+
+#visual > div .right > ul > li.ico2 > a{
+    background: url(../image/common/ico_share.png) no-repeat center;
+}
+
+#visual > div .right > ul > li.ico3 > a{
+    background: url(../image/common/ico_print.png) no-repeat center;
+}
+
+#visual > div .right > ul li:hover ul{
+    display: block;
+}
+
+#visual > div .right li ul{
+    position: absolute;
+    display: none;
+}
+
+#visual > div .right li ul a{
+    display: block;
+    width: 61px;
+    height: 50px;
+    background: no-repeat center #4d4d4d;
+    color: transparent;
+    border-bottom: 1px solid #000;
+}
+
+#visual > div .right li ul a.ico2_1{
+    background-image: url(../image/common/ico_sns1.png);    
+}
+
+#visual > div .right li ul a.ico2_2{
+    background-image: url(../image/common/ico_sns2.png);
+}
+
+#visual > div .right li ul a.ico2_3{
+    background-image: url(../image/common/ico_sns3.png);
+}
+
+#visual > div .right li ul a.ico2_1:hover{
+    background-color: #4b65b9;
+}
+
+#visual > div .right li ul a.ico2_2:hover{
+    background-color: #55acef;
+}
+
+#visual > div .right li ul a.ico2_3:hover{
+    background-color: #5fb314;
 }
