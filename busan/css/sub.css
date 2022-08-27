@@ -179,3 +179,61 @@
 #visual > div .right li ul a.ico2_3:hover{
     background-color: #5fb314;
 }
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#container #snb{
+    float: left;
+    padding: 30px 29px 0 0;
+    width: 230px;
+}
+
+#container #snb h2{
+    padding: 49px 0 0;
+    height: 91px;
+    background: #333f52;
+    font-size: 21px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+
+#container #snb h2 span{
+    display: block;
+    color: #8f939b;
+    font-size: 12px;
+    padding: 13px 0 0;
+}
+
+#container #snb li a{
+    display: block;
+    position: relative;
+    height: 53px;
+    border-bottom: 1px solid #8f939b;
+    line-height: 53px;
+    text-indent: 25px;
+    color: #303030;
+}
+
+#container #snb li a:hover{
+    color: #1354bb;
+    text-indent: 61px;
+}
+
+#container #snb li a:hover:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45px;
+    height: 54px;
+    background: url(../image/common/bg_snb.png) no-repeat center #1354bb;
+}
+
+#container #contents{
+    float: left;
+}
