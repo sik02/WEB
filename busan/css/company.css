@@ -392,6 +392,30 @@
     font-size: 15px;
 }
 
+table.type1 tr:first-child th,
+table.type1 tr:first-child td{
+    border-top: 1px solid #a1a6b0;
+}
+
+table.type1 th,
+table.type1 td{
+    border-top: 1px solid #ddd;
+}
+
+table.type1 th{
+    padding: 28px 0 23px 44px;
+    font-size: 16px;
+    color: #3b3a3a;
+    text-align: left;
+    font-weight: normal;
+}
+
+table.type1 td{
+    padding: 28px 0 23px;
+    font-size: 14px;
+    color: #565757;
+}
+
 #line{
     border-bottom: 1px solid #c0c0c0;
 }
