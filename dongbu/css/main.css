@@ -170,3 +170,16 @@ header #lnb nav > ul ul a:hover:after{
     left: 0;
     width: 100%;
 }
+
+.info_box{
+    width: 1175px;
+    margin: 0 auto;
+}
+
+.info_box h2{ 
+    padding: 58px 0 41px; 
+    font-size: 21px; 
+    color: #777; 
+    font-weight: normal;
+    text-align: center;
+}
