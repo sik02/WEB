@@ -213,4 +213,13 @@ header #lnb nav > ul ul a:hover:after{
 .btn_more { display: inline-block; width: 140px; height: 44px; border: 1px solid #042e6f; box-sizing: border-box; font-size: 16px; color: #042e6f; line-height: 44px; text-align: center; letter-spacing: 7px; margin-top: 30px;}
 .btn_more:after { content: ""; display: inline-block; margin: 0 0 0 8px; width: 12px; height: 12px; background: url(../image/icon.png) no-repeat -196px -5px; }
 .btns.center { text-align: center;}
+
+.guide_box { width: 1175px; margin: 0 auto; }
+.guide_box article { float: left; }
+.guide_box .guide h2 { color: #000; font-size: 30px; line-height: 40px; font-weight: normal; }
+.guide_box .guide ul { float: left; }
+
+
+
+
 body { padding: 0 0 300px; }
