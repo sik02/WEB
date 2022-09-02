@@ -1,5 +1,7 @@
+header .index { padding: 0 30px 30px; }
+
 header{
-    padding: 0 30px 30px;
+    padding: 0 30px 55px;
     background: linear-gradient(to right, #042e6f, #042e6f 50%, #f2f2f2 50%, #f2f2f2);
 }
 
