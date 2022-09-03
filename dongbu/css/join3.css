@@ -14,3 +14,7 @@ table.type1 .info:before { content: ""; display: inline-block; margin: 0 5px 0 1
 table.type1 td > div { padding: 10px 0 0;}
 table.type1 td > div:first-child { padding: 0;}
 table.type1 td .btn_type3 { margin-left: 5px; }
+table.type1 td input { margin: 0 5px; }
+table.type1 td input:first-child { margin-left: 0;}
+
+table + .btn_center { padding: 50px 0 0 0 ;}
