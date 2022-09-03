@@ -195,14 +195,28 @@ footer > div .right:after { content: ""; position: absolute; right: 20px; top: 5
 .noti { font-size: 14px; color: 888; margin-bottom: 30px; }
 .noti:before { content: ""; display: inline-block; margin: 0 3px 0 0; width: 15px; height: 15px; background: url(../image/icon.png) no-repeat -336px -5px; vertical-align: -3px;}
 
-input[type="checkbox"] { position: absolute; left: -4000%;}
-input[type="checkbox"] + label { font-size: 14px; color: #222; line-height: 27px; }
-input[type="checkbox"] + label:before { content: ""; display: inline-block; margin: 0 8px 0 0; width: 27px; height: 27px; background: url(../image/icon.png) no-repeat -97px -60px; vertical-align: -8px; }
-input[type="checkbox"]:checked + label:before { background-position: -129px -60px;}
+input.type1 { position: absolute; left: -4000%;}
+input.type1 + label { font-size: 14px; color: #222; line-height: 27px; }
+input.type1 + label:before { content: ""; display: inline-block; margin: 0 8px 0 0; width: 27px; height: 27px; background: url(../image/icon.png) no-repeat -97px -60px; vertical-align: -8px; }
+input.type1:checked + label:before { background-position: -129px -60px;}
+
+input.type2 { position: absolute; left: -4000%;}
+input.type2 + label { font-size: 14px; color: #222; line-height: 27px; padding: 0 35px 0 0; }
+input.type2 + label:before { content: ""; display: inline-block; margin: 0 8px 0 0; width: 12px; height: 12px; background: url(../image/icon.png) no-repeat -49px -60px; }
+input.type2:checked + label:before { background-position: -66px -60px;}
+
+input[type="radio"] { position: absolute; left: -4000%;}
+input[type="radio"] + label { font-size: 14px; color: #222; line-height: 27px; padding: 0 35px 0 0; }
+input[type="radio"] + label:before { content: ""; display: inline-block; margin: 0 8px 0 0; width: 14px; height: 13px; background: url(../image/icon.png) no-repeat -2px -60px; }
+input[type="radio"]:checked + label:before { background-position: -20px -60px;}
 
 .btn_center { text-align: center; margin-bottom: 30px;  }
-input + .btn_center { padding: 65px 0 0;}
-.btn_type1 { display: inline-block; width: 145px; height: 45px; text-align: center; line-height: 45px; color: #fff; font-size: 13px; background: #042e6f; }
+label + .btn_center { padding: 65px 0 0;}
+.btn_type1 { display: inline-block; width: 120px; height: 45px; text-align: center; line-height: 45px; color: #fff; font-size: 13px; background: #042e6f; }
+.btn_type3 { display: inline-block; min-width: 102px; height: 38px; line-height: 38px; text-align: center; border: 2px solid #aaa; box-sizing: border-box; vertical-align: middle;}
+
+
+
 
 
 /* 회원가입 */
