@@ -1,0 +1,14 @@
+header .top { margin: 0 auto; width: 1200px; }
+header .top h1 { float: left; padding: 33px 0 0; }
+header .top h1 a:first-child { margin-right: 28px; }
+header .top > div { float: right; }
+header .control { float: left; padding: 31px 24px 0 0;}
+header .control h2 { float: left; font-size: 16px; color: #333; font-weight: normal;}
+header .control ul { float: left; padding: 0 0 0 9px; }
+header .control li { float: left; padding: 0 0 0 4px; }
+header .control li button[class] { padding: 0; }
+header .control li button { font-size: 14px; color: #3190ce; background: #fff; border: 1px solid #dfdfdf; height: 36px; border-radius: 36px; min-width: 36px; padding: 0 16px; box-sizing: border-box;}
+header .sns { float: left; position: relative; padding: 27px 0 0 7px; }
+header .sns:before { content: ""; position: absolute; left: 0; top: 35px; width: 1px; height: 30px; background: #e3e3e3;}
+header .sns li { float: left; padding: 0 0 0 12px; }
+header .sns li img { width: 46px; }
